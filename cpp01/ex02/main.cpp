@@ -1,6 +1,13 @@
 #include <iostream>
 #include <string>
 
+
+void ref(std::string& str)
+{
+	std::cout << str << std::endl;
+}
+
+
 int	main(void)
 {
 	std::string	str = "HI THIS IS BRAIN";
